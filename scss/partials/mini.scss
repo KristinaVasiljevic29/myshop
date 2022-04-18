@@ -1,0 +1,50 @@
+main{
+  .undo{
+    display: block;
+    padding-left: 15px;
+    background-image: url("../img/arrow-gray.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    margin: 30px 0;
+  }
+  .photo{
+    display: block;
+    margin-bottom: 40px;
+  }
+  .aboutArticle{
+      font-size: 16px;
+      color: #666666;
+      margin-bottom: 40px;
+    }
+    section{
+      .about{
+        color: #333333;
+        li{
+          margin-bottom: 15px;
+        }
+      }
+      .more{
+        li{
+          margin-bottom: 15px;
+            .info{
+              display: block;
+              width: 16px;
+              height: 16px;
+              float: left;
+              &:not(:last-child){
+                margin-right: 5px;
+              }
+            }
+            .one{
+              background-color: #7D81E3;
+            }
+            .two{
+              background-color: #72AE9C;
+            }
+            .three{
+              background-color: #333333;
+            }
+        }
+      }
+    }
+}
